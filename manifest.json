@@ -1,0 +1,26 @@
+{
+
+  "manifest_version": 2,
+  "name": "Spotify To Vk",
+  "version": "1.0",
+
+  "description": "Spotify To Vk get current track name from Spotify and writes it to Vk user status",
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "applications": {
+    "gecko": {
+      "id": "spotify_to_vk",
+      "strict_min_version": "45.0"
+    }
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.vk.com/*"],
+      "js": ["main.js"]
+    }
+  ]
+
+}
