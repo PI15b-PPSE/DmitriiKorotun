@@ -30,12 +30,9 @@ function login(callback) {
         'menubar=no,location=no,resizable=no,scrollbars=no,status=no, width=' + width + ', height=' + height + ', top=' + top + ', left=' + left
     );
 
-    alert('kek');
-
 }
 
 function getUserData(accessToken) {
-    alert('kek');
     return $.ajax({
         url: 'https://api.spotify.com/v1/me',
         headers: {
@@ -57,19 +54,4 @@ function something() {
     window.location.href ='https://accounts.spotify.com/authorize/?client_id='
         + client_id + '&response_type=' + response_type
         + '&redirect_uri=' + redirect_uri;
-    // $.ajax({
-    //     url: "https://accounts.spotify.com/authorize",
-    //     data: {
-    //         client_id: '362df30b7db846dcae9db7be61fad1c3',
-    //         redirect_uri: encodeURIComponent('http://vk.com/'), response_type: 'code'
-    //     },
-    //     type: 'GET',
-    //     cache: false,
-    //     success: function () {
-    //         alert('lol');
-    //     },
-    //     error: function () {
-    //         alert('loh');
-    //     }
-    // });
 }
