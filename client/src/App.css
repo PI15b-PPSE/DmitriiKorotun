@@ -1,0 +1,67 @@
+body {
+    background-image: url("https://i0.wp.com/ficedu.org/wp-content/uploads/2016/07/Savin-NY-Website-Background-Web.jpg");
+}
+
+.App {
+    text-align: center;
+    height: 40em;
+    width: 100%;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+.App-header {
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: white;
+}
+
+.App-title {
+    font-size: 1.5em;
+}
+
+.App-intro {
+    font-size: large;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.href-wrapper a {
+    margin: 0.5em;
+    text-decoration: none;
+}
+
+.playback-wrapper {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.playback {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.now-playing {
+    margin: 1em auto;
+    font: 20px arial, sans-serif;
+}
+
+.playback-img {
+    margin: 0.5em;
+}
+
+.header {
+    margin-right: 1em;
+}

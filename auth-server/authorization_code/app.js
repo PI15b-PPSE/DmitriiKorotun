@@ -12,6 +12,7 @@ var v_client_id = '6652616'; // Your client id
 var v_client_secret = 'ec130e420f0643149ed816f2ca486105'; // Your secret
 var v_redirect_uri = 'http://localhost:3000/'; // Your redirect uri
 
+
 /**
  * Generates a random string containing numbers and letters
  * @param  {number} length The length of the string
