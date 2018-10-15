@@ -222,7 +222,7 @@ class App extends Component {
     }
 
     /**
-     * Generates a random string containing numbers and letters
+     * Returns a string contains all artists, performing a song
      *
      * @param  {array}  artists_arr Array of all artists
      *                  performing current song
